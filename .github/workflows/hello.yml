@@ -19,7 +19,7 @@ jobs:
         run: | 
           date
   directory_content_job:
-    runs-on:
+    runs-on: ubuntu-22.04
     steps:
       - name: Directory content
         run: |
